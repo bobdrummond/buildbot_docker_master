@@ -1,7 +1,7 @@
 version: '2'
 services:
   buildbot:
-    image: bobdrummond/buildbot_docker_master
+    image: bobdrummond/buildbot_docker_master:v1.0.0
     build:
       context: ./master
     env_file:
